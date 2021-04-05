@@ -37,6 +37,6 @@ RETURNpt2:
 
     lastresult += stack[ptr + 1];
     ptr = ptr - 3;
-	goto stack[ptr+5];
+    goto stack[ptr+5];
 
 END: goto END
